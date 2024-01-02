@@ -469,6 +469,19 @@ section {
   color: white;
 }
 
+.section-subtitle {
+  padding-bottom: 40px;
+}
+
+.section-subtitle h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-bottom: 0;
+  color: white;
+}
+
 .section-title p {
   margin-bottom: 0;
   color: #aeaeae;
@@ -752,7 +765,7 @@ color: #B2B2B2 !important;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") center center no-repeat;
+  background: url("../img/img_data.jpg") center center no-repeat;
   color: #fff;
   font-size: 14px;
   position: relative;
