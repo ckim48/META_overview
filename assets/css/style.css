@@ -470,8 +470,17 @@ section {
 }
 
 .section-subtitle {
-  padding-bottom: 40px;
+  padding-bottom: 7px;
 }
+.team-sub{
+  color:white;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;;
+}
+.team-sub ul{
+  color: #EAEAEA;
+}
+
 
 .section-subtitle h2 {
   font-size: 30px;
@@ -518,13 +527,43 @@ section {
   padding: 2px 6px 0 0;
   color: #AA36BD;
 }
+.carousel-container {
+  
+  height: 400px; /* Adjust the height as needed */
+  overflow: hidden; /* Hide any overflow if images are larger than the container */
+}
+.carousel-item img {
+  border: 1px solid white;
+  width: 100%; /* Make sure the image width spans the container */
+  height: 100%; /* Make sure the image height spans the container */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.carousel-item iframe {
+  border: 1px solid white;
+  width: 100%; /* Make sure the image width spans the container */
+  height: 300px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.sweimg{
+width:35% !important;
+}
+.carousel-item video {
+  border: 1px solid white;
+  margin: auto;
+  width: 35%; /* Set the width of the video to span the container */
+  object-fit: cover;
+}
+.carousel-item:not(.active) {
+  display: none !important; /* Hide non-active items */
+}
+
 p{
-  color:#D0D0D0;
+  color:#EAEAEA;
 }
 .about p{
 
     font-family: 'Merriweather Sans', sans-serif;
-    color:#D0D0D0;
+    color:#EAEAEA;
 }
 
 .about .content p:last-child {
