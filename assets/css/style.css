@@ -426,6 +426,31 @@ h6 {
   color: white;
 }
 
+.btn-learn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 25px;
+/*  border-radius: 3px;*/
+  margin: 10px;
+  margin-right: 45px;
+  margin-bottom: 20px;
+  color: black;
+/*  border: 3px solid black;*/
+  background: white;
+}
+
+.btn-learn:hover {
+  transition: 0.4s;
+  background: black;
+  border:1px solid white;
+  color: white;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -550,7 +575,7 @@ width:35% !important;
 .carousel-item video {
   border: 1px solid white;
   margin: auto;
-  width: 35%; /* Set the width of the video to span the container */
+  width: 36%; /* Set the width of the video to span the container */
   object-fit: cover;
 }
 .carousel-item:not(.active) {
@@ -724,6 +749,10 @@ color: #B2B2B2 !important;
   padding: 60px 0;
 }
 
+.team p{
+
+  text-align: justify;
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
