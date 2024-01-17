@@ -584,6 +584,25 @@ section {
 .sweimg{
 width:35% !important;
 }
+@media (max-width: 992px) {
+  .center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #videoPlayer{
+            width: 100%;
+    max-width: 495px; /* Adjust the max-width as needed */
+    height: 400;
+  }
+    #videoPlayer2{
+            width: 100%;
+    max-width: 495px; /* Adjust the max-width as needed */
+    height: 400;
+  }
+}
 video{
   border: 1px solid #DBDADB !important;
 }
