@@ -358,10 +358,18 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/back2.jpg");
+  background: url("../img/backvideo2.mp4");
     background-size: cover; 
   background-position: center; 
   position: relative;
+}
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
 }
 #hero::before {
   content: "";
@@ -370,7 +378,7 @@ h6 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.64);
+  background-color: rgba(0, 0, 0, 0.34);
 }
 #hero .hero-container {
   position: absolute;
@@ -576,12 +584,35 @@ section {
 .sweimg{
 width:35% !important;
 }
-.carousel-item video {
+video{
+  border: 1px solid #DBDADB !important;
+}
+.btn-primary{
+  background: black!important;
+  border: 1px solid white !important;
+  color:white;
+}
+.btn-primary:hover{
+  background: white!important;
+  border: 1px solid black !important;
+  color:black;
+}
+.activeBTN{
+    background: white!important;
+  border: 1px solid black !important;
+  color:black;
+}
+.activeBTN2{
+    background: white!important;
+  border: 1px solid black !important;
+  color:black;
+}
+/*.carousel-item video {
   border: 1px solid white;
   margin: auto;
-  width: 36%; /* Set the width of the video to span the container */
+  width: 36%; 
   object-fit: cover;
-}
+}*/
 .carousel-item:not(.active) {
   display: none !important; /* Hide non-active items */
 }
@@ -719,6 +750,20 @@ p{
   margin: 0;
   padding: 0;
 }
+.why-us .box button {
+  display: block;
+  color: #6F6F6F;
+  font-size: 15px;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  margin-top: 12px;
+
+}
+.why-us .box button:hover{
+
+color: #B2B2B2 !important;
+}
 
 .why-us .box a {
   display: block;
@@ -751,6 +796,9 @@ color: #B2B2B2 !important;
 .team {
 /*  background: #fff;*/
   padding: 60px 0;
+}
+.team ul{
+  color:white;
 }
 
 .team p{
